@@ -140,7 +140,7 @@ export default function AddWorkout() {
             
             {showSaveOk && <Text style={styles.saveOk}>Workout saved!</Text>}
             {showInputError && !showSaveOk && (
-              <Text style={styles.alert}>Save button is disable due to missing information.</Text>
+              <Text style={styles.alert}>Save button is disabled due to missing information.</Text>
             )}    
         </View>
       </>
